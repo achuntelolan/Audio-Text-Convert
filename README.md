@@ -29,7 +29,7 @@ A simple web application that allows users to upload an MP3 audio file and conve
 Navigate to the project directory:
    
    ```bash
-      cd audio-to-text-conversion
+   cd audio-to-text-conversion
 Install the required packages using pip:
 
    ```bash
