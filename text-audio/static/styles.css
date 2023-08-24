@@ -1,0 +1,122 @@
+/* Reset default margin and padding */
+body, h1, h2, p, form {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font styles */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #FFA500; /* Premium orange color */
+}
+
+/* Form styles */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="file"] {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid #FFA500;
+    border-radius: 5px;
+    background-color: #FFA500;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+input[type=file]::file-selector-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 40px;
+    color: #020202;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffffff;
+  }
+.smt-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #FFA500;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Separator line styles */
+hr {
+    margin: 20px auto;
+    border: none;
+    border-top: 1px solid #ddd;
+    width: 80%;
+}
+
+/* Converted text styles */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #FFA500;
+}
+
+p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* FontAwesome icon styles */
+.fa {
+    font-size: 20px;
+    color: #FFA500;
+    margin-left: 5px;
+}
+
+.cvrt-box{
+    height: 35rem;
+    width:40rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+/* Company logo styles */
+
+.converted-text-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.fa-clipboard{
+    float: right;
+    margin-right:20px ;
+    margin-top: 10px;
+}
+a{
+    color: #FFA500;
+    text-decoration: none;
+}
