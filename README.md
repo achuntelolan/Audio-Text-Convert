@@ -21,25 +21,27 @@ A simple web application that allows users to upload an MP3 audio file and conve
 - Responsive design for various screen sizes.
 
 ## Installation
-
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/your-username/audio-to-text-conversion.git
+   ```
 Navigate to the project directory:
    
    ```bash
    cd audio-to-text-conversion
+```
 Install the required packages using pip:
 
    ```bash
    pip install -r requirements.txt
+```
 Usage
 
 Run the Flask application:
 
    ```bash
    python app.py
+```
 Open your web browser and navigate to http://localhost:5000 to access the application.
 
 Upload an MP3 audio file and click the "Upload and Convert" button.
@@ -61,5 +63,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 Contact
 For any questions or inquiries, feel free to contact me:
 
-Email: your.email@example.com
-GitHub: Your GitHub Profile
+Email: anoopaj08@gmail.com
+
+GitHub: [achuntlolan](https://github.com/achuntelolan)
